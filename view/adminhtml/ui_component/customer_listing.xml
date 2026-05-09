@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @author Sanjeev Kumar
+ * @license MIT
+ */
+-->
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+
+    <columns name="customer_columns" class="Magento\Customer\Ui\Component\Listing\Columns">
+        <column name="total_purchase_amount" sortOrder="260" class="Magento\Sales\Ui\Component\Listing\Column\Price">
+            <settings>
+                <dataType>price</dataType>
+                <filter>textRange</filter>
+                <label translate="true">Total Purchase Amount</label>
+                <visible>false</visible>
+            </settings>
+        </column>
+        <column name="avg_purchase_amount" sortOrder="265" class="Magento\Sales\Ui\Component\Listing\Column\Price">
+            <settings>
+                <dataType>price</dataType>
+                <filter>textRange</filter>
+                <label translate="true">Average Purchase Amount</label>
+                <visible>false</visible>
+            </settings>
+        </column>
+        <column name="last_purchase_date" class="Magento\Ui\Component\Listing\Columns\Date" component="Magento_Ui/js/grid/columns/date" sortOrder="270">
+            <settings>
+                <dateFormat>MMM d, y</dateFormat>
+                <filter>dateRange</filter>
+                <dataType>date</dataType>
+                <label translate="true">Last Purchase Date</label>
+                <visible>false</visible>
+            </settings>
+        </column>
+    </columns>
+</listing>

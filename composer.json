@@ -1,0 +1,20 @@
+{
+    "name": "sanjeev-kr/magento2-customer-purchase-history",
+    "description": "magento 2 extension for customer purchase history.",
+    "version": "2.0.0",
+    "require": {
+        "php": ">=8.2.0"
+    },
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Sanjeev\\CustomerPurchaseHistory\\": ""
+        }
+    }
+}
