@@ -1,6 +1,6 @@
 Introduction
 ------------
-Sanjeev_CustomerPurchaseHistory is a light weight Magento 2 module that computes customers purchase history metrics and exposes them in customers listing in admin. The module collects store wise aggregates like total purchases amount, average purchase  amounts, and last purchase date of each customer. A cron job or console command triggers the computation.
+Sanjeev_CustomerPurchaseHistory is a light weight Magento 2 module that computes customers purchase history metrics and exposes them in customers listing in admin. The module collects store wise aggregates like total purchases amount, average purchase  amounts, and last purchase date of each customer. This module helps customer support teams, store managers, and marketers quickly understand customer buying behaviour, identify frequently purchased products, and provide better customer assistance.
 
 Features
 --------
@@ -9,6 +9,30 @@ Features
 - Enable / disable store wise calcuation of purchase history metrics via store configuration.
 - Store wise select orders' statues to include in the metrics via store configuration.
 - Console command: on-demand metrics calculation run manually CLI command
+
+Screenshots
+---------
+### Customer Purchase History
+
+![Customer Purchase History](docs/images/customer_grid.png)
+
+### Filters
+
+![Filters](docs/images/filters.png)
+
+### Configuration
+
+![Configuration](docs/images/configuration.png)
+
+Key Benefits
+--------
+- View customer purchase history instantly
+- Track previously purchased products
+- Improve customer support and sales interactions
+- Gain insights into customer buying patterns
+- Easy installation and Magento 2 integration
+
+Compatible with Magento Open Source and Adobe Commerce.
 
 Composer installation
 ---------------------
