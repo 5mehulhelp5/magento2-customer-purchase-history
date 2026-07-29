@@ -27,7 +27,6 @@ Screenshots
 Key Benefits
 --------
 - View customer purchase history instantly
-- Track previously purchased products
 - Improve customer support and sales interactions
 - Gain insights into customer buying patterns
 - Easy installation and Magento 2 integration
